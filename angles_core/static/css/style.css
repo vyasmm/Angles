@@ -1,0 +1,30 @@
+body{
+    background-color: #ebebe0;
+}
+
+#heading{
+    background-color: #004de6;
+}
+
+#header-text{
+    font-family: "Arial", Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.span2{
+    height: 30px;
+    margin: 10px;
+    width: 400px;
+}
+
+.span3{
+    height: 30px;
+    margin: 10px;
+    width: 400px;
+}
+
+#uploadButton{
+    height: 30px;
+}

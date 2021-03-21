@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Angles</title>
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div id="heading" class="row">
+        <div id="header-text" class="span6">
+            <h1>Angles</h1>
+        </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+
+    <hr/>
+
+    <div class="row">
+        <div id="upload" class="span6">
+            <div id="frame">
+                <div id="uploadDetails">
+                    <h3>Synchronize a new video set</h3>
+                    <form class="form" enctype="multipart/form-data" method="post">
+                        <div class="control-group">
+                            <div class="controls">
+                                <label class="control-label" for="title"></label>
+                                <input type="text" class="span2" id="title" name="title" placeholder="Name"/>
+                            </div>
+                        </div>
+                        <div class="uploadText"><h3>Use a YouTube link</h3></div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <label class="control-label" for="url1"></label>
+                                <input type="text" class="span3" id="url1" name="url1" placeholder="Youtube URL">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <label class="control-label" for="url2"></label>
+                                <input type="text" class="span3" id="url2" name="url2" placeholder="Youtube URL">
+                            </div>
+                        </div>
+			<div class="control-group">
+                            <div class="controls">
+                                <label class="control-label" for="url3"></label>
+                                <input type="text" class="span3" id="url3" name="url3" placeholder="Youtube URL">
+                            </div>
+                        </div>
+			<div class="control-group">
+                            <div class="controls">
+                                <label class="control-label" for="url4"></label>
+                                <input type="text" class="span3" id="url4" name="url4" placeholder="Youtube URL">
+                            </div>
+                        </div>
+                        <div class="sync">
+                            <button id="uploadButton" class="btn btn-custom-lighten" type="submit">Sync</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+</div>
+
+</body>
+</html>
